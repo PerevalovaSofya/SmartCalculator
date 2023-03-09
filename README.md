@@ -1,13 +1,15 @@
 # SmartCalculator
 
-This project implements a calculator with support for both arithmetic operations and mathematical functions. 
+В этом проекте реализован калькулятор с возможностью вычисления арифметических операций и математических функций.
 
-The calculation takes place using the reverse Polish notation. 
+Расчет производится с использованием обратной польской нотации.
 
-Plotting a graph of a function given by an expression in infix notation with the variable _x_ (with coordinate axes, mark of the used scale and an adaptive grid). 
+В отдельном окне можно построить график функции (используется QCustomPlot), изменить маштаб и область определения функции.
 
-Both integers and real numbers with a dot can be input into the program, and it is also possible to enter numbers in the exponential number system.
+Есть возможность вычисления арифметических выражений с подстановкой значения переменной x в виде числа.
 
-The project implements the mvc pattern.
+Программа поддерживает скобочные выражения, унарные операторы и числа в экспоненциальной системе счисления.
+
+В проекте реализован паттерн MVC.
 
 ![](materials/example.gif)
